@@ -12,4 +12,22 @@ public class TryingMethods {
 
     }
 
+    /**
+     * This function returns the sum of all
+     * the numbers from 0-999.
+     * 
+     */
+    public static int sumLessThan1K() {
+        int value = 1;
+        int sum = 0;
+
+        while (value < 1000) {
+            sum += value;
+            value++;
+        }
+
+        return sum;
+
+    }
+
 }
