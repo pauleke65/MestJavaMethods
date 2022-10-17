@@ -13,6 +13,23 @@ public class TryingMethods {
     }
 
     /**
+     * This function returns the sum of all
+     * the numbers from 0-999.
+     * 
+     */
+    public static int sumLessThan1K() {
+        int value = 1;
+        int sum = 0;
+
+        while (value < 1000) {
+            sum += value;
+            value++;
+        }
+
+        return sum;
+    }
+
+    /**
      * This method has no return type, it takes a name
      * and prints whether the person is a MEST Teaching fellow.
      * If it does not find the name, it prints a not found string.
