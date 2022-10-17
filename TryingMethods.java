@@ -14,6 +14,25 @@ public class TryingMethods {
 
     /**
      * This function returns the sum of all
+     * <<<<<<< HEAD
+     * the even numbers between 12 and 103
+     * This means that it excludes both 12 and 103
+     * so 13-102
+     * 
+     */
+    public static void findSumOfEvenNumberBetween12And103() {
+
+        int sum = 0;
+        for (int i = 13; i < 103; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
+        }
+
+        System.out.println(sum);
+    }
+
+    /**
      * the numbers from 0-999.
      * 
      */
@@ -54,7 +73,7 @@ public class TryingMethods {
         }
     }
 
-    /*
+    /**
      * This method takes an integer, then returns a {@code String} matching
      * the respective day of the week being Sunday(1) - Saturday(7).
      * Or returns <b>Invalid Day of the Week</b> if the day entered is not found.
